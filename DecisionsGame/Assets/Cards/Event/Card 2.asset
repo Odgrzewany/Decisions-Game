@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562319c7907a2264a9b026a7a4f94a34, type: 3}
+  m_Name: Card 2
+  m_EditorClassIdentifier: 
+  Name: Enemy
+  TextToSay: Here we are.
+  CardImagePath: C:/Users/YanusH/Documents/DecisionsGame/Assets/Images/Cards/Robbers.jpg
+  CardType: 0
+  DelayedEffectSide: 0
+  LResultToPeople: 10
+  LResultToArmy: -20
+  LResultToBelief: -3
+  LResultToMoney: 15
+  LeftText: Let's beat them.
+  RResultToPeople: -10
+  RResultToArmy: -5
+  RResultToBelief: 0
+  RResultToMoney: -20
+  RightText: Surrender.
+  DelayedCardName: 
+  IsDelayed: 0
+  DelayedOnly: 1
+  Delay: 3
+  DelayedTextToSay: 
+  BlockedTime: 0
+  CardsToBlockNames: []

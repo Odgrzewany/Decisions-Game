@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562319c7907a2264a9b026a7a4f94a34, type: 3}
+  m_Name: Card 5
+  m_EditorClassIdentifier: 
+  Name: Scout
+  TextToSay: 'Good day, My Lord. I saw that our enemy land is growing. Don''t You
+    think that we should expand our land too? "The Big Oaks" are free. '
+  CardImagePath: C:/Users/YanusH/Documents/DecisionsGame/Assets/Images/Cards/Robbers.jpg
+  CardType: 0
+  DelayedEffectSide: 0
+  LResultToPeople: 8
+  LResultToArmy: 8
+  LResultToBelief: 8
+  LResultToMoney: -20
+  LeftText: That is great idea!
+  RResultToPeople: -9
+  RResultToArmy: -9
+  RResultToBelief: -9
+  RResultToMoney: 0
+  RightText: We have to wise spend gold. We will spend too much gold by doing it.
+  DelayedCardName: 
+  IsDelayed: 0
+  DelayedOnly: 0
+  Delay: 0
+  DelayedTextToSay: 
+  BlockedTime: 0
+  CardsToBlockNames: []

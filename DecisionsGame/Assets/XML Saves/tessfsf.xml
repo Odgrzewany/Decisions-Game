@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DeckName>tessfsf</DeckName>
+  <EventCards>
+    <EventCard>
+      <name />
+      <hideFlags>None</hideFlags>
+      <Name>sefsf</Name>
+      <CardImagePath>C:/Users/YanusH/Documents/DecisionsGame/Assets/StreamingAssets/Incorrect path, make sure that 
+you have correct file extension.</CardImagePath>
+      <WhileCardImagePath>Incorrect path, make sure that 
+you have correct file extension.</WhileCardImagePath>
+      <CardType>NoEffect</CardType>
+      <DelayedEffectSide>Null</DelayedEffectSide>
+      <LResultToPeople>0</LResultToPeople>
+      <LResultToArmy>0</LResultToArmy>
+      <LResultToBelief>0</LResultToBelief>
+      <LResultToMoney>0</LResultToMoney>
+      <RResultToPeople>0</RResultToPeople>
+      <RResultToArmy>0</RResultToArmy>
+      <RResultToBelief>0</RResultToBelief>
+      <RResultToMoney>0</RResultToMoney>
+      <IsDelayed>false</IsDelayed>
+      <DelayedOnly>false</DelayedOnly>
+      <Delay>0</Delay>
+      <BlockedTime>0</BlockedTime>
+      <CardsToBlockNames />
+    </EventCard>
+  </EventCards>
+</Deck>

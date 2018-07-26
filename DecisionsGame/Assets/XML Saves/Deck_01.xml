@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DeckName>Deck_01</DeckName>
+  <EventCards>
+    <EventCard>
+      <name />
+      <hideFlags>None</hideFlags>
+      <Name>Cos tam</Name>
+      <TextToSay>werqwre</TextToSay>
+      <CardImagePath>C:/Users/YanusH/Documents/DecisionsGame/Assets/StreamingAssets//Cards/robbers.jpg</CardImagePath>
+      <WhileCardImagePath>/Cards/robbers.jpg</WhileCardImagePath>
+      <CardType>NoEffect</CardType>
+      <DelayedEffectSide>Null</DelayedEffectSide>
+      <LResultToPeople>-6</LResultToPeople>
+      <LResultToArmy>4</LResultToArmy>
+      <LResultToBelief>-9</LResultToBelief>
+      <LResultToMoney>4</LResultToMoney>
+      <LeftText>wqerqwer</LeftText>
+      <RResultToPeople>-10</RResultToPeople>
+      <RResultToArmy>6</RResultToArmy>
+      <RResultToBelief>-9</RResultToBelief>
+      <RResultToMoney>3</RResultToMoney>
+      <RightText>wqerqwr</RightText>
+      <IsDelayed>false</IsDelayed>
+      <DelayedOnly>false</DelayedOnly>
+      <Delay>0</Delay>
+      <BlockedTime>0</BlockedTime>
+      <CardsToBlockNames />
+    </EventCard>
+    <EventCard>
+      <name />
+      <hideFlags>None</hideFlags>
+      <Name>efwfwef</Name>
+      <TextToSay>aasda</TextToSay>
+      <CardImagePath>C:/Users/YanusH/Documents/DecisionsGame/Assets/StreamingAssets//Cards/farmers.jpg</CardImagePath>
+      <WhileCardImagePath>/Cards/farmers.jpg</WhileCardImagePath>
+      <CardType>NoEffect</CardType>
+      <DelayedEffectSide>Null</DelayedEffectSide>
+      <LResultToPeople>2</LResultToPeople>
+      <LResultToArmy>-12</LResultToArmy>
+      <LResultToBelief>5</LResultToBelief>
+      <LResultToMoney>-8</LResultToMoney>
+      <LeftText>2</LeftText>
+      <RResultToPeople>-10</RResultToPeople>
+      <RResultToArmy>2</RResultToArmy>
+      <RResultToBelief>-10</RResultToBelief>
+      <RResultToMoney>5</RResultToMoney>
+      <RightText>`1</RightText>
+      <IsDelayed>false</IsDelayed>
+      <DelayedOnly>false</DelayedOnly>
+      <Delay>0</Delay>
+      <BlockedTime>3</BlockedTime>
+      <CardsToBlockNames />
+    </EventCard>
+    <EventCard>
+      <name />
+      <hideFlags>None</hideFlags>
+      <Name>dfdfs</Name>
+      <TextToSay>fdsf</TextToSay>
+      <CardImagePath>C:/Users/YanusH/Documents/DecisionsGame/Assets/StreamingAssets//Cards/army.jpg</CardImagePath>
+      <WhileCardImagePath>/Cards/army.jpg</WhileCardImagePath>
+      <CardType>NoEffect</CardType>
+      <DelayedEffectSide>Null</DelayedEffectSide>
+      <LResultToPeople>0</LResultToPeople>
+      <LResultToArmy>-13</LResultToArmy>
+      <LResultToBelief>4</LResultToBelief>
+      <LResultToMoney>-13</LResultToMoney>
+      <LeftText>f</LeftText>
+      <RResultToPeople>-6</RResultToPeople>
+      <RResultToArmy>5</RResultToArmy>
+      <RResultToBelief>-11</RResultToBelief>
+      <RResultToMoney>4</RResultToMoney>
+      <RightText>s</RightText>
+      <IsDelayed>false</IsDelayed>
+      <DelayedOnly>false</DelayedOnly>
+      <Delay>0</Delay>
+      <BlockedTime>0</BlockedTime>
+      <CardsToBlockNames />
+    </EventCard>
+  </EventCards>
+</Deck>
