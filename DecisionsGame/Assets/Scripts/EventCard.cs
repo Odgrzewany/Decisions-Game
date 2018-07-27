@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "Cards/New Event Card")]
 [System.Serializable]
-public class EventCard : ScriptableObject
+public class EventCard
 {
     [Header("Info")]
     public string Name;

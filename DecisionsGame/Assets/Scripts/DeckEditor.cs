@@ -89,10 +89,10 @@ public class DeckEditor : MonoBehaviour
 
     public void DeleteDeck(Deck deck, GameObject obj)
     {
-        if (File.Exists(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml"))
+        if (File.Exists(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml"))
         {
-            File.Delete(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml");
-            File.Delete(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml.meta");
+            File.Delete(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml");
+            File.Delete(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml.meta");
             Destroy(obj);
         }
     }
@@ -211,7 +211,7 @@ public class DeckEditor : MonoBehaviour
 
     public void CreateCard()
     {
-        _currentCard = ScriptableObject.CreateInstance<EventCard>();
+        _currentCard = new EventCard();
         _createdDeck.EventCards.Add(_currentCard);
         _currentCardIndex = _createdDeck.EventCards.Count - 1;
         _currentCard.CardsToBlockNames = new string[0];

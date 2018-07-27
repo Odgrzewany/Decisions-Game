@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -546,7 +546,7 @@ public class GameController : MonoBehaviour
     {
         if (_currentPlayedCards.Count >= card.Delay)    //If there is enough storage;
         {
-            var delayedCard = ScriptableObject.CreateInstance<EventCard>();
+            var delayedCard = new EventCard();
 
             foreach (EventCard delCard in _copiedDeck)
             {
@@ -593,5 +593,10 @@ public class GameController : MonoBehaviour
         ArmyImage.transform.localScale = new Vector2(ArmyImage.transform.localScale.x, _armyScaler);
         MoneyImage.transform.localScale = new Vector2(MoneyImage.transform.localScale.x, _moneyScaler);
         BeliefImage.transform.localScale = new Vector2(BeliefImage.transform.localScale.x, _beliefScaler);
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene(0);
     }
 }
