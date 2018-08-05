@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.IO;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,6 +15,15 @@ public class Menu : MonoBehaviour
     {
         XMLSerializerScript.Ins.DeckChoosen = deck;
         SceneManager.LoadScene(2);
+    }
+
+    void Start()
+    {
+        if(PlayerPrefs.GetInt("WasCreated") == 1) return;
+
+        PlayerPrefs.SetInt("WasCreated", 1);
+        Directory.CreateDirectory(Application.persistentDataPath + "/XML Saves");
+        Directory.CreateDirectory(Application.persistentDataPath + "/Cards Images");
     }
 
     public void OpenWidnow()

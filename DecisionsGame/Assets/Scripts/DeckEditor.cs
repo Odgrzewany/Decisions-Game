@@ -89,10 +89,10 @@ public class DeckEditor : MonoBehaviour
 
     public void DeleteDeck(Deck deck, GameObject obj)
     {
-        if (File.Exists(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml"))
+        if (File.Exists(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml"))
         {
-            File.Delete(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml");
-            File.Delete(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml.meta");
+            File.Delete(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml");
+            File.Delete(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml.meta");
             Destroy(obj);
         }
     }
@@ -231,7 +231,7 @@ public class DeckEditor : MonoBehaviour
     }
     public void UpdateImagePath(TMP_InputField input)
     {
-        _currentCard.CardImagePath = Application.streamingAssetsPath + "/" + input.text;
+        _currentCard.CardImagePath = Application.persistentDataPath + "/Cards Images/" + input.text;
         _currentCard.WhileCardImagePath = input.text;
         Sprite sprite = XMLSerializerScript.Ins.LoadNewSprite(_currentCard.CardImagePath);
 

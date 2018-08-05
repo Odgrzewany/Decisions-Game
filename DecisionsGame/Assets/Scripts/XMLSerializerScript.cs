@@ -47,7 +47,7 @@ public class XMLSerializerScript : MonoBehaviour
 
     public void SaveData(Deck deck)
     {
-        FileStream stream = new FileStream(Application.streamingAssetsPath + "/XML Saves/" + deck.DeckName + ".xml", FileMode.Create);
+        FileStream stream = new FileStream(Application.persistentDataPath + "/XML Saves/" + deck.DeckName + ".xml", FileMode.Create);
         XmlSerializer serializer = new XmlSerializer(typeof(Deck));
         serializer.Serialize(stream, deck);
         stream.Close();
@@ -55,7 +55,7 @@ public class XMLSerializerScript : MonoBehaviour
 
     public void LoadData(bool decks)
     {
-        string[] files = Directory.GetFiles(Application.streamingAssetsPath + "/XML Saves", "*.xml", SearchOption.AllDirectories);
+        string[] files = Directory.GetFiles(Application.persistentDataPath + "/XML Saves", "*.xml", SearchOption.AllDirectories);
 
         DecksToPlay.PlayerDecks = new List<Deck>();
 
